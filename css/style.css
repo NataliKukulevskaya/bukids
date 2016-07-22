@@ -2,7 +2,9 @@
 html{
     background-color: aquamarine;
 }
-
+.main-block-paddings{
+  padding: 10px 20px;
+}
 /* navigation block */
 /* carusel block */
 /* about-us block */
