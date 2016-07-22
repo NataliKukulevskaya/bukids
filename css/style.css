@@ -11,3 +11,32 @@ html{
 /* categories(programs) block */
 /* collective block */
 /* footer block */
+footer{
+  background: #9b5d90;
+  color: white;
+}
+/* background-color для футера не работает */
+input {
+  margin-top: 20px;
+  padding: 5px;
+  border: solid 2px white;
+  border-radius: 5px;
+}
+i {
+  margin-left: 20px;
+  margin-right: 5px;
+}
+.address {
+  padding-top: 20px;
+}
+footer::after{
+  content:"";
+  display: block;
+}
+.socials {
+  float: right;
+  margin-left: 15px;
+}
+.map {
+  padding-top: 20px;
+}
