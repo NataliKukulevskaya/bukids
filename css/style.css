@@ -9,6 +9,12 @@ html{
 }
 .main-block-paddings{
   padding: 10px 20px;
+  box-sizing: border-box;
+}
+.main-block-style{
+  background-color: white;
+  display: block;
+  margin-top: 20px;
 }
 /* navigation block */
 /* carusel block */
@@ -24,9 +30,7 @@ img {
   border-top: 1px solid grey;
   padding-top: 20px;
 }
-.main-block-paddings{
-  padding: 10px 20px;
-}
+
 p {
   font-family: Roboto;
 }
@@ -54,7 +58,9 @@ i {
 }*/
 .socials {
   float: right;
-  margin-left: 15px;
+  margin-right: 15px;/* right instead left*/
+  height: 20px;/*need size*/
+  width: 20px;/*need size*/
 }
 .message{
   width: 100%;
