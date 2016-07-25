@@ -1,18 +1,85 @@
 /* block for all page styles */
+@font-face {
+  font-family: 'Glyphicons Halflings';
+  src: url('../fonts/bootstrap/glyphicons-halflings-regular.eot');
+  src: url('../fonts/bootstrap/glyphicons-halflings-regular.eot?#iefix') format('embedded-opentype'), url('../fonts/bootstrap/glyphicons-halflings-regular.woff2') format('woff2'), url('../fonts/bootstrap/glyphicons-halflings-regular.woff') format('woff'), url('../fonts/bootstrap/glyphicons-halflings-regular.ttf') format('truetype'), url('../fonts/bootstrap/glyphicons-halflings-regular.svg#glyphicons_halflingsregular') format('svg'); }
 html{
     background-color: aquamarine;
 }
-
-.white_li{
-	color: white !important;
+  .navbar-decor{
+  background: #9b5d90 !important;
+  color: white !important;
 }
 .logo-size{
-	height: 44px;
+  height: 40px;
+  margin-top: 15px;;
 }
-
+.main-block-paddings{
+  padding: 10px 20px;
+  box-sizing: border-box;
+}
+.main-block-style{
+  background-color: white;
+  display: block;
+  margin-top: 50px;
+}
 /* navigation block */
 /* carusel block */
 /* about-us block */
 /* categories(programs) block */
 /* collective block */
+img {
+  margin: 0 auto;
+  height: 230px;
+  width: 230px;
+}
+.unlined-title {
+  border-top: 1px solid grey;
+  padding-top: 20px;
+}
+p {
+  font-family: Roboto;
+}
 /* footer block */
+footer{
+  background-color: #9b5d90;
+  color: white;
+}
+input {
+  margin-top: 20px;
+  padding: 5px;
+  border: solid 2px white;
+  border-radius: 5px;
+}
+i {
+  margin-left: 20px;
+  margin-right: 5px;
+}
+.address {
+  padding-top: 20px;
+}
+/*footer::after{
+  content:"";
+  display: block;
+}*/
+.socials {
+  float: right;
+  margin-right: 15px;/* right instead left*/
+  height: 20px;/*need size*/
+  width: 20px;/*need size*/
+}
+.message{
+  width: 100%;
+}
+.info-f{}
+.info-b{}
+.map {
+  padding-top: 20px;
+}
+.ul_margin_top{
+  margin-top: 10px;
+}
+.form-control{
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
