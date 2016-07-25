@@ -17,10 +17,9 @@ html{
 /* collective block */
 /* footer block */
 footer{
-  background: #9b5d90;
+  background-color: #9b5d90;
   color: white;
 }
-/* background-color для футера не работает */
 input {
   margin-top: 20px;
   padding: 5px;
@@ -34,14 +33,19 @@ i {
 .address {
   padding-top: 20px;
 }
-footer::after{
+/*footer::after{
   content:"";
   display: block;
-}
+}*/
 .socials {
   float: right;
   margin-left: 15px;
 }
+.message{
+  width: 100%;
+}
+.info-f{}
+.info-b{}
 .map {
   padding-top: 20px;
 }
