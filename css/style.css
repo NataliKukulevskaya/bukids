@@ -3,6 +3,13 @@ html{
     background-color: aquamarine;
 }
 
+.white_li{
+	color: white !important;
+}
+.logo-size{
+	height: 44px;
+}
+
 /* navigation block */
 /* carusel block */
 /* about-us block */
