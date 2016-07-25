@@ -14,13 +14,14 @@ html{
 .main-block-style{
   background-color: white;
   display: block;
-  margin-top: 20px;
+  margin-top: 50px;
 }
 /* navigation block */
 /* carusel block */
 /* about-us block */
 /* categories(programs) block */
 /* collective block */
+
 img {
   margin: 0 auto;
   height: 230px;
@@ -70,3 +71,4 @@ i {
 .map {
   padding-top: 20px;
 }
+
