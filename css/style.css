@@ -4,15 +4,7 @@
   src: url('../fonts/bootstrap/glyphicons-halflings-regular.eot');
   src: url('../fonts/bootstrap/glyphicons-halflings-regular.eot?#iefix') format('embedded-opentype'), url('../fonts/bootstrap/glyphicons-halflings-regular.woff2') format('woff2'), url('../fonts/bootstrap/glyphicons-halflings-regular.woff') format('woff'), url('../fonts/bootstrap/glyphicons-halflings-regular.ttf') format('truetype'), url('../fonts/bootstrap/glyphicons-halflings-regular.svg#glyphicons_halflingsregular') format('svg'); }
 html{
-    background-color: aquamarine;
-}
-  .navbar-decor{
-  background: #9b5d90 !important;
-  color: white !important;
-}
-.logo-size{
-  height: 40px;
-  margin-top: 15px;;
+    background: url("../img/background.png");
 }
 .main-block-paddings{
   padding: 10px 20px;
@@ -23,12 +15,26 @@ html{
   display: block;
   margin-top: 50px;
 }
+.row{
+  margin: 0 !important;
+}
 /* navigation block */
+.navbar-decor{
+  background: #9b5d90 !important;
+}
+.logo-size{
+  height: 40px;
+  margin-top: 15px;
+  padding-left: 15px;
+}
+.menu-title{
+  color: white !important;
+}
 /* carusel block */
 /* about-us block */
 /* categories(programs) block */
 /* collective block */
-img {
+.employe-photo {
   margin: 0 auto;
   height: 230px;
   width: 230px;
