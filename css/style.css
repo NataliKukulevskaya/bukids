@@ -74,14 +74,9 @@ i {
 .map {
   padding-top: 20px;
 }
-.about-us_centre{
-  text-align: center;
-  font-size: 40px;
-  margin-top: 102px;
-  margin-bottom: 73px;
+
 }
 .about-us_text{
-  text-align: center;
   font-size: 20px;
-  line-height: 0.8;
+  line-height: 1.5;
 }
