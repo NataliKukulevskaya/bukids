@@ -36,7 +36,7 @@
 							</div>
 						</form>
 						<ul class="nav navbar-nav navbar-right ul_margin_top">
-							<li><a href="#" class="menu-title">Про нас</a></li>
+							<li><a href="#about-us" class="menu-title">Про нас</a></li>
 							<li><a href="#programms" class="menu-title">Программы</a></li>
 							<li><a href="#collective" class="menu-title">Наш колектив</a></li>
 							<li><a href="#contacts" class="menu-title">Контакты</a></li>
@@ -46,8 +46,15 @@
 			</div><!-- /.navbar-collapse -->
 		</div><!-- /.container-fluid -->
 	</nav>
-	<div class="carusel">
+	<div class="carousel">
 		<div id="myCarousel" class="carousel">
+			<!-- Маркеры картинок в карусельке -->
+			<ol class="carousel-indicators">
+				<li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+				<li data-target="#myCarousel" data-slide-to="1"></li>
+				<li data-target="#myCarousel" data-slide-to="2"></li>
+			</ol>
+
 			<!-- Картинки в карусельке -->
 			<div class="carousel-inner">
 				<div class="active item"><img src="img/teacher.png"></div>
@@ -55,11 +62,11 @@
 				<div class="item"><img src="img/logo.png"></div>
 			</div>
 			<!-- Навигационные элементы -->
-			<a class="carousel-control left" href="#myCarousel" data-slide="prev">&lsaquo;</a>
-			<a class="carousel-control right" href="#myCarousel" data-slide="next">&rsaquo;</a>
+			<a class="carousel-control left" href="#myCarousel" data-slide="prev"><span class="glyphicon glyphicon-chevron-left"></span></a>
+			<a class="carousel-control right" href="#myCarousel" data-slide="next"><span class="glyphicon glyphicon-chevron-right"></a>
 		</div>
 	</div>
-	<div class="about-us"></div>
+	<div id="programms" class="programms"></div>
 	<div class="programms main-block-paddings main-block-style">
 		<div class="row">
 			<div class="col-xs-6 col-md-4">
