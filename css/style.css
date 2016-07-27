@@ -3,9 +3,12 @@
   font-family: 'Glyphicons Halflings';
   src: url('../fonts/bootstrap/glyphicons-halflings-regular.eot');
   src: url('../fonts/bootstrap/glyphicons-halflings-regular.eot?#iefix') format('embedded-opentype'), url('../fonts/bootstrap/glyphicons-halflings-regular.woff2') format('woff2'), url('../fonts/bootstrap/glyphicons-halflings-regular.woff') format('woff'), url('../fonts/bootstrap/glyphicons-halflings-regular.ttf') format('truetype'), url('../fonts/bootstrap/glyphicons-halflings-regular.svg#glyphicons_halflingsregular') format('svg'); }
+<<<<<<< HEAD
 }
+=======
+>>>>>>> master
 html{
-    background-color: aquamarine;
+    background: url("../img/background.png");
 }
 .main-block-paddings{
   padding: 10px 20px;
@@ -14,13 +17,31 @@ html{
 .main-block-style{
   background-color: white;
   display: block;
-  margin-top: 20px;
+  margin-top: 50px;
 }
+.row{
+  margin: 0 !important;
+}
+
 /* navigation block */
+.navbar-decor{
+  background: #9b5d90 !important;
+}
+.logo-size{
+  height: 40px;
+  margin-top: 15px;
+  padding-left: 15px;
+}
+.menu-title{
+  color: white !important;
+}
 /* carusel block */
 /* about-us block */
+/*div{
+  color: blue; }*/
 /* categories(programs) block */
 /* collective block */
+<<<<<<< HEAD
 @font-face{
   font-family:"Roboto Light";
   src: url(fonts/Roboto-Light_1.ttf);
@@ -38,6 +59,9 @@ html{
   font-size: 30px;
 }
 img {
+=======
+.employe-photo {
+>>>>>>> master
   margin: 0 auto;
   height: 230px;
   width: 230px;
@@ -46,7 +70,6 @@ img {
   border-top: 1px solid grey;
   padding-top: 20px;
 }
-
 p {
   font-family: "Roboto Light";
   font-size: 16px;
@@ -87,4 +110,17 @@ i {
 .info-b{}
 .map {
   padding-top: 20px;
+}
+
+.about-us_text {
+  font-size: 20px;
+  line-height: 1.5;
+}
+.ul_margin_top{
+  margin-top: 10px;
+}
+.form-control{
+  margin-bottom: 10px;
+  margin-top: 10px;
+
 }
