@@ -24,7 +24,7 @@ html{
 }
 .logo-size{
   height: 40px;
-  margin-top: 6px;
+  margin-top: 13px;
   padding-left: 15px;
 }
 .menu-title{
@@ -93,16 +93,9 @@ i {
 .navbar-toggle{
   margin-right: -5px;
 }
-/*@media (max-width: 910px){
-  ul{
-    display:none;
-  }
-  form.navbar-form{
-    display:none;
-  }
-}*/
-/*@media (max-width: 911px) {
-  .navbar-toggle {
-    display: none !important;
-  }
-}*/
+.a_nav{
+  margin: 0 !important;
+  padding: 0px !important;
+  padding-right: 15px !important;
+  margin-top: 26px !important;
+}
