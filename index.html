@@ -2,12 +2,13 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>Title</title>
 	<link rel="stylesheet" href="css/libs/bootstrap.css">
 	<link rel="stylesheet" href="css/libs/bootstrap-theme.css">
     <link rel="stylesheet" href="css/style.css">
 	<link rel="stylesheet" href="css/carousel.css">
-	<script src="js/libs/jq-1.8.2.min.js"></script>
+	<script src="http://code.jquery.com/jquery-1.9.1.js"></script>
 	<script src="js/libs/bootstrap.js"></script>
 	<script src="js/libs/carusel.js"></script>
 	<script src="js/script.js"></script>
@@ -62,8 +63,12 @@
 				<div class="item"><img src="img/logo.png"></div>
 			</div>
 			<!-- Навигационные элементы. Сначала стояли две верхние стрелочки, какая-то абракадабра, положение которой я никак не мог задать. Поэтому я добавил в карусель-контролер по спану с иконкой стрелки, которая встала четко по середине -->
-			<a class="carousel-control left" href="#myCarousel" data-slide="prev"><span class="glyphicon glyphicon-chevron-left"></span></a>
-			<a class="carousel-control right" href="#myCarousel" data-slide="next"><span class="glyphicon glyphicon-chevron-right"></a>
+			<a class="carousel-control left" href="#myCarousel" data-slide="prev">
+				<!-- <span class="glyphicon glyphicon-chevron-left"></span> -->
+			</a>
+			<a class="carousel-control right" href="#myCarousel" data-slide="next">
+				<!-- <span class="glyphicon glyphicon-chevron-right"> -->
+				</a>
 		</div>
 	</div>
 	<div id="programms" class="programms"></div>
