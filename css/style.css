@@ -1,4 +1,4 @@
-/* block for all page styles */
+/*/* block for all page styles */
 @font-face {
   font-family: 'Glyphicons Halflings';
   src: url('../fonts/bootstrap/glyphicons-halflings-regular.eot');
@@ -31,7 +31,7 @@ html{
 .menu-title{
   color: white !important;
 }
-/* carusel block */
+ carusel block 
 /* about-us block */
 /*div{
   color: blue; }*/
@@ -98,3 +98,12 @@ i {
   margin-top: 10px;
 
 }
+.foto{
+width: 319px;
+height: 213px;
+overflow: hidden;
+/*border: 2px solid red;*/
+margin-bottom: 21px; 
+margin-left: 15px;
+}
+/*.inline-block{ display: inline-block; }*/
