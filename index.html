@@ -152,16 +152,16 @@
 		<div class="col-lg-4 col-md-4 col-sm-12">
   				<form action="">
 				 	<label for="input1">
-					 <input type="text" placeholder="Введіть повідомлення *" class="message" id="input1" required/>
+					 <input type="text" placeholder="Введіть повідомлення *" class="message" id="input1" maxlength="200" required/>
 					</label>
 					<label for="input2" >
-					 <input type="text" placeholder="Ім'я *" class="info-f" id="input2" aria-required="true" aria-describedby="name-format" required/>
+					 <input type="text" placeholder="Ім'я *" class="info-f" id="input2" aria-required="true" aria-describedby="name-format" maxlength="50" required/>
 					 </label>
 					<label for="input3" >
-					 <input type="email" placeholder="Пошта *" class="info-f" id="input3" aria-required="true" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,3}$" required/>
+					 <input type="email" placeholder="Пошта *" class="info-f" id="input3" aria-required="true" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,3}$" maxlength="50" required/>
 					</label>
 					<label for="input4">
-					<input type="tel" placeholder="Номер телефону"  class="info-f tel" id="input4" pattern="^\d{10}$" aria-describedby="basic-addon3" required/>
+					<input type="tel" placeholder="Номер телефону"  class="info-f tel" id="input4" pattern="^\d{10}$" aria-describedby="basic-addon3" maxlength="15"/>
 					</label>
 					<input type="submit" value="Підтвердити" class="info-b submit">
 				 </form>
