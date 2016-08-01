@@ -50,9 +50,9 @@ p {
   font-family: Roboto;
 }
 /* footer block */
-footer{
+footer {
   background-color: #9b5d90;
-/*  color: white;*/
+  height: 350px;
 }
 label {
   width: 100%;
@@ -61,37 +61,21 @@ label {
 .info-f{
   width: 100%;
 }
-@media only screen and (min-width: 600px) {
-  /*For tabletes*/
-  .message{
-  padding: 30px;
-}
-}
-@media only screen and (min-width: 768px) {
-  /*For desktop*/
-  .info-f{
-    width: 27.4%;
-  }
-  .message{
-  padding: 60px;
-}
-}
 input {
   margin-top: 20px;
   padding: 5px;
   border: solid 2px white;
   border-radius: 5px;
 }
-i {
-  margin-left: 20px;
-  margin-right: 5px;
-}
 .address {
   padding-top: 20px;
 }
 .socials {
-  float: right;
-  margin-right: 15px;/* right instead left*/
+  margin-right: 15px;
+  margin-top: 20px;
+  /*   temporary fix */
+/*   need to center icons */
+  /* right instead left*/
   height: 20px;/*need size*/
   width: 20px;/*need size*/
 }
@@ -104,17 +88,20 @@ i {
   padding-top: 20px;
   margin-bottom: 20px;
 }
-.about-us_text {
-  font-size: 20px;
-  line-height: 1.5;
-}
-.ul_margin_top{
-  margin-top: 10px;
-}
 .form-control{
   margin-bottom: 10px;
   margin-top: 10px;
 }
-span {
+.inform {
   color: white;
+  margin: 5%;
+  font-size: 18px; 
+  text-align: center;
+  line-height: 1.5;
+}
+i {
+  margin:1%;
+}
+.submit {
+  float: right;
 }
