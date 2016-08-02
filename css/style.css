@@ -84,12 +84,18 @@ input {
 }
 .message{
   width: 100%;
-  padding: 30px;
+  padding: 5px;
+  margin-top: 20px;
+  border: solid 2px white;
+  border-radius: 5px;
+  background-color: #9b5d90;
+  color: white !important;
 }
 .info-b{}
 .map {
   padding-top: 20px;
   margin-bottom: 20px;
+  max-height: 350px;
 }
 .form-control{
   margin-bottom: 10px;
@@ -110,3 +116,22 @@ i {
 }
 .to-center{
   text-align: center;
+} 
+/*setting placeholder color*/
+::-webkit-input-placeholder { /* WebKit, Blink, Edge */
+    color:    #fff;
+}
+:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+   color:    #fff;
+   opacity:  1;
+}
+::-moz-placeholder { /* Mozilla Firefox 19+ */
+   color:    #fff;
+   opacity:  1;
+}
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+   color:    #fff;
+}
+
+
+
