@@ -121,5 +121,15 @@ margin-left: 10px;
     left:-55px;
     font-size: 24px;
     color: white;
-    /*text-align: center;*/
+}
+.foto_sadik {
+  /*border: 1px solid green;*/
+  width: auto;
+  display:inline-block;
+}
+.sadik_text{
+  float: right;
+  display:inline-block;
+    position: relative;
+    right: 5px;
 }
