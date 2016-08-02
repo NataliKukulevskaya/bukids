@@ -20,11 +20,13 @@ html{
 }
 /* navigation block */
 .navbar-decor{
-  background: #9b5d90 !important;
+  /*background: #9b5d90 !important;*/
+  background:rgba(155,93,144, .55);
+
 }
 .logo-size{
   height: 40px;
-  margin-top: 13px;
+  margin-top: 3px;
   padding-left: 15px;
 }
 .menu-title{
@@ -97,5 +99,8 @@ i {
   margin: 0 !important;
   padding: 0px !important;
   padding-right: 15px !important;
-  margin-top: 26px !important;
+  margin-top: 12px !important;
+}
+.navbar-nav > li > a:hover{
+  color:#711663 !important;
 }
