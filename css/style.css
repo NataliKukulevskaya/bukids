@@ -124,7 +124,8 @@ margin-left: 10px;
 }
 .foto_sadik {
   /*border: 1px solid green;*/
-  width: auto;
+  width: 100%;
+  height: auto;
   display:inline-block;
 }
 .sadik_text{
@@ -132,4 +133,11 @@ margin-left: 10px;
   display:inline-block;
     position: relative;
     right: 5px;
+}
+.sadik_padding{
+   padding: 0px;
+    padding-right: 22px;
+}
+.sadik_font{
+  font-size: 1.5em;
 }
