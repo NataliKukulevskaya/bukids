@@ -31,11 +31,71 @@ html{
 .menu-title{
   color: white !important;
 }
- carusel block 
+ /*carusel block */
 /* about-us block */
+.about-us_text {
+  font-size: 20px;
+  line-height: 1.5;
+}
 /*div{
   color: blue; }*/
 /* categories(programs) block */
+.foto{
+/*width: 305px;
+height: 200px;
+overflow: hidden;*/
+/*border: 1px solid red;*/
+/*margin-bottom: 21px; */
+margin-left: 10px;
+margin-bottom: 5px;
+}
+.programms_name{
+    display:inline-block;
+    position:absolute;
+    top: 35%;   
+    left:25%;
+    font-size: 24px;
+    color: white;
+    /*width: 100%;*/
+    text-align: center;
+}
+.programms_name_mini{
+  position: absolute;
+  top: 40%;
+  left: 30%;
+  font-size: 24px;
+  color: white;
+}
+/*.img_align{
+  width: auto;
+}*/
+/*.foto_day{
+  display:inline-block;
+    position: relative;
+    top: 0px;   
+    left:-55px;
+    font-size: 24px;
+    color: white;
+}*/
+.foto_sadik {
+  /*border: 1px solid green;*/
+  width: 100%;
+  height: auto;
+  display:inline-block;
+}
+.sadik_text{
+  float: right;
+  display:inline-block;
+    position: relative;
+    right: 5px;
+}
+.sadik_padding{
+   padding: 0px;
+    padding-right: 22px;
+}
+.sadik_font{
+  font-size: 1.5em;
+}
 /* collective block */
 .employe-photo {
   margin: 0 auto;
@@ -86,10 +146,7 @@ i {
   padding-top: 20px;
 }
 
-.about-us_text {
-  font-size: 20px;
-  line-height: 1.5;
-}
+
 .ul_margin_top{
   margin-top: 10px;
 }
@@ -97,47 +154,4 @@ i {
   margin-bottom: 10px;
   margin-top: 10px;
 
-}
-.foto{
-width: 305px;
-height: 200px;
-overflow: hidden;
-/*border: 1px solid red;*/
-margin-bottom: 21px; 
-margin-left: 10px;
-}
-.programms_name{
-    display:inline-block;
-    position:absolute;
-    top: 75px;   
-    left:130px;
-    font-size: 24px;
-    color: white;
-}
-.foto_day{
-  display:inline-block;
-    position: relative;
-    top: 0px;   
-    left:-55px;
-    font-size: 24px;
-    color: white;
-}
-.foto_sadik {
-  /*border: 1px solid green;*/
-  width: 100%;
-  height: auto;
-  display:inline-block;
-}
-.sadik_text{
-  float: right;
-  display:inline-block;
-    position: relative;
-    right: 5px;
-}
-.sadik_padding{
-   padding: 0px;
-    padding-right: 22px;
-}
-.sadik_font{
-  font-size: 1.5em;
 }
