@@ -50,6 +50,9 @@ html{
 .navbar-nav > li > a:hover{
   color:#711663 !important;
 }
+.carousel-control{
+  width: 0;
+}
 ol{
     margin-top: 0;
     margin-bottom: -10px;
