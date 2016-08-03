@@ -7,10 +7,13 @@
 	<link rel="stylesheet" href="css/libs/bootstrap-theme.css">
     <link rel="stylesheet" href="css/style.css">
 	<link rel="stylesheet" href="css/carousel.css">
-	<script src="js/libs/jq-1.8.2.min.js"></script>
+	<!-- <script src="js/libs/jq-1.8.2.min.js"></script> -->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.4/jquery.js"></script>
+
 	<script src="js/libs/bootstrap.js"></script>
 	<script src="js/libs/carusel.js"></script>
 	<script src="js/script.js"></script>
+	<script src="js/modal-map.js"></script>
 </head>
 
 <body>
@@ -162,7 +165,7 @@
 					 <input type="email" placeholder="Пошта *" class="info-f" id="input3" aria-required="true" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,3}$" maxlength="50" required/>
 					</label>
 					<label for="input4">
-					<input type="tel" placeholder="Номер телефону"  class="info-f tel" id="input4" pattern="^\d{10}$" aria-describedby="basic-addon3" maxlength="15"/>
+					<input type="tel" placeholder="Номер телефону"  class="info-f tel" id="input4" pattern="(\+?\d[- .]*){5,15}" aria-describedby="basic-addon3" maxlength="15"/>
 					</label>
 					<input type="submit" value="Підтвердити" class="info-b submit">
 				 </form>
@@ -183,9 +186,25 @@
 			<p class="inform"><i class="glyphicon glyphicon-map-marker"></i>Ірпінь, вул.Українська, 63</p>
 			<p class="inform"><i class="glyphicon glyphicon-envelope"></i>babyartclub@ukr.net</p>
 		</div>
-		<div class="col-lg-4 col-md-4 col-sm-12">	
-			<img src="img/map-lg.png" alt="Map" class="img-responsive map"/>
+		<div class="col-lg-4 col-md-4 col-sm-12">
+			<!-- Button trigger modal -->
+<!-- <button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#lightbox">
+  Launch demo modal
+</button>	 -->
+			<a href="#" class="thumbnail" data-toggle="modal" data-target="#lightbox"> 
+            	<img src="img/map-lg.png" alt="Map" class="img-responsive map"/>
+            </a>
 		</div>
+		<div id="lightbox" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+    			<div class="modal-dialog">
+        			<button type="button" class="close hidden" data-dismiss="modal" aria-hidden="true">×</button>
+        			<div class="modal-content">
+            			<div class="modal-body">
+               				<img src="" alt="" />
+            			</div>
+        			</div>
+   				 </div>
+			</div>
 	</footer>
 </body>
 </html>
