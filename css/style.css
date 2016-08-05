@@ -79,8 +79,8 @@ input {
   /*   temporary fix */
 /*   need to center icons */
   /* right instead left*/
-  height: 20px;/*need size*/
-  width: 20px;/*need size*/
+  height: 30px;/*need size*/
+  width: 30px;/*need size*/
 }
 .message{
   width: 100%;
@@ -105,8 +105,8 @@ input {
   color: white;
   margin: 5%;
   font-size: 18px; 
-  text-align: center;
-  line-height: 1.5;
+  /*text-align: center;*/
+  line-height: 1.4em;
 }
 i {
   margin:1%;
@@ -114,22 +114,19 @@ i {
 .submit {
   float: right;
 }
-.to-center{
-  text-align: center;
-} 
 /*setting placeholder color*/
-::-webkit-input-placeholder { /* WebKit, Blink, Edge */
+::-webkit-input-placeholder {  /*WebKit, Blink, Edge */
     color:    #fff;
 }
-:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+:-moz-placeholder {  /*Mozilla Firefox 4 to 18 */
    color:    #fff;
    opacity:  1;
 }
-::-moz-placeholder { /* Mozilla Firefox 19+ */
+::-moz-placeholder {  /*Mozilla Firefox 19+*/ 
    color:    #fff;
    opacity:  1;
 }
-:-ms-input-placeholder { /* Internet Explorer 10-11 */
+:-ms-input-placeholder {  /*Internet Explorer 10-11 */
    color:    #fff;
 }
 
@@ -151,5 +148,9 @@ i {
     
     z-index:1032;
 }
-
-
+[data-hidden="hidden"] {
+   visibility: hidden;
+}
+.glyphicon {
+    font-size: 1.4em;
+}
