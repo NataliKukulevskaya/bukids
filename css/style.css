@@ -50,6 +50,10 @@ p {
   font-family: Roboto;
 }
 /* footer block */
+@font-face{
+  font-family:"Roboto-Thin";
+  src: url(fonts/Roboto-Thin_1.ttf);
+  }
 footer {
   background-color: #9b5d90;
   width: 100% !important;
@@ -69,6 +73,7 @@ input {
   border: solid 2px white;
   border-radius: 5px;
   background-color: #9b5d90;
+  font-family: "Roboto-Thin";
   color: white !important;
 }
 .address {
@@ -106,6 +111,7 @@ input {
   color: white;
   margin: 5%;
   font-size: 18px; 
+  font-family: "Roboto-Thin";
   /*text-align: center;*/
   line-height: 1.4em;
 }
@@ -163,3 +169,13 @@ button {
   background-color: #9b5d90;
   color: white !important;
 }
+/*input:invalid{
+  border-color: #900;
+  /*background-color: #FDD;*/
+/*}
+input:valid{
+   border-color: #00FF00;
+}
+input:focus:invalid {
+  outline: none;
+}*/
