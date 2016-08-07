@@ -2,11 +2,8 @@
 @font-face {
   font-family: 'Glyphicons Halflings';
   src: url('../fonts/bootstrap/glyphicons-halflings-regular.eot');
-  src: url('../fonts/bootstrap/glyphicons-halflings-regular.eot?#iefix') format('embedded-opentype'), url('../fonts/bootstrap/glyphicons-halflings-regular.woff2') format('woff2'), url('../fonts/bootstrap/glyphicons-halflings-regular.woff') format('woff'), url('../fonts/bootstrap/glyphicons-halflings-regular.ttf') format('truetype'), url('../fonts/bootstrap/glyphicons-halflings-regular.svg#glyphicons_halflingsregular') format('svg'); }
-<<<<<<< HEAD
+  src: url('../fonts/bootstrap/glyphicons-halflings-regular.eot?#iefix') format('embedded-opentype'), url('../fonts/bootstrap/glyphicons-halflings-regular.woff2') format('woff2'), url('../fonts/bootstrap/glyphicons-halflings-regular.woff') format('woff'), url('../fonts/bootstrap/glyphicons-halflings-regular.ttf') format('truetype'), url('../fonts/bootstrap/glyphicons-halflings-regular.svg#glyphicons_halflingsregular') format('svg'); 
 }
-=======
->>>>>>> master
 html{
     background: url("../img/background.png");
 }
@@ -41,27 +38,23 @@ html{
   color: blue; }*/
 /* categories(programs) block */
 /* collective block */
-<<<<<<< HEAD
 @font-face{
-  font-family:"Roboto Light";
+  font-family:"Roboto-Light";
   src: url(fonts/Roboto-Light_1.ttf);
 }
 @font-face{
-  font-family:"Roboto Regular";
+  font-family:"Roboto-Regular";
   src: url(fonts/Roboto-Regular_0.ttf);
 }
 @font-face{
-  font-family:"Roboto Thin";
+  font-family:"Roboto-Thin";
   src: url(fonts/Roboto-Thin_1.ttf);
 }
 .collective h2{
-  font-family: "Roboto Regular";
+  font-family: "Roboto-Regular";
   font-size: 30px;
 }
-img {
-=======
 .employe-photo {
->>>>>>> master
   margin: 0 auto;
   height: 230px;
   width: 230px;
@@ -71,7 +64,7 @@ img {
   padding-top: 20px;
 }
 p {
-  font-family: "Roboto Light";
+  font-family: "Roboto-Light";
   font-size: 16px;
 }
 .bigger {font-size: 24px;}
@@ -99,9 +92,12 @@ i {
 }*/
 .socials {
   float: right;
-  margin-right: 15px;/* right instead left*/
-  height: 20px;/*need size*/
-  width: 20px;/*need size*/
+  margin-right: 15px;
+  /* right instead left*/
+  height: 20px;
+  /*need size*/
+  width: 20px;
+  /*need size*/
 }
 .message{
   width: 100%;
