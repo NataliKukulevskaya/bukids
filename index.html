@@ -9,7 +9,8 @@
 	<link rel="stylesheet" href="css/carousel.css">
 	<!-- <script src="js/libs/jq-1.8.2.min.js"></script> -->
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.4/jquery.js"></script>
-
+	<script src="js/form-validation.js"></script>
+	<script src="js/libs/jquery.maskedinput.min.js"></script>
 	<script src="js/libs/bootstrap.js"></script>
 	<script src="js/libs/carusel.js"></script>
 	<script src="js/script.js"></script>
@@ -153,19 +154,19 @@
 	</div>
 	<footer class="container">
 		<div class="col-lg-4 col-md-4 col-sm-12">
-  				<form action="#" method="post">
+  				<form action="#" method="post" data-toggle="validator" id="contactForm">
 				 	<label for="input1">
 				 	<textarea name="" id="input1" class="message" cols="30" rows="4" maxlength="200" placeholder="Введіть повідомлення *" required></textarea>
 					<label for="input2" >
 					 <input type="text" placeholder="Ім'я *" class="info-f" id="input2" aria-required="true" aria-describedby="name-format" maxlength="50" required/>
 					 </label>
 					<label for="input3" >
-					 <input type="email" placeholder="Пошта *" class="info-f" id="input3" aria-required="true" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,3}$" maxlength="50" required/>
+					 <input type="email" placeholder="Пошта *" class="info-f" id="input3" aria-required="true" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,3}$" maxlength="50"required/>
 					</label>
 					<label for="input4">
-					<input type="tel" placeholder="Номер телефону"  class="info-f tel" id="input4" pattern="(\+?\d[- .]*){5,15}" aria-describedby="basic-addon3" maxlength="15"/>
+					<input type="tel" placeholder="Номер телефону"  id="phone" class="info-f tel" id="input4" pattern="(\+?\d[- .]*){5,15}" aria-describedby="basic-addon3" maxlength="15"/>
 					</label>
-					<input type="submit" value="Підтвердити" class="info-b submit">
+					<button type="submit" class="btn"><i class="glyphicon glyphicon-send"></i></button>
 				 </form>
 		</div>
 		<div class="col-lg-3 col-md-3 col-sm-12 col-lg-offset-1 col-md-offset-1 col-sm-offset-3 col-xs-offset-3">
@@ -189,7 +190,7 @@
 		</div>
 		<div class="col-lg-4 col-md-4 col-sm-12">
 			<a href="#" class="thumbnail" data-toggle="modal" data-target="#lightbox"> 
-            	<img src="img/map-lg.png" alt="Map" class="img-responsive map"/>
+            	<img src="img/map.png" alt="Map" class="img-responsive map"/>
             </a>
 		</div>
 		<div id="lightbox" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
